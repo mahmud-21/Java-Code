@@ -5,7 +5,7 @@ public class MathPractice {
         Scanner sc = new Scanner(System.in);
 
 
-                System.out.println("Equation 1: Calculate the height of a right triangle.");
+        System.out.println("Equation 1: Calculate the height of a right triangle.");
         System.out.print("Enter base (b): ");
         double b = sc.nextDouble();
         System.out.print("Enter angle (theta in degrees): ");
