@@ -1,4 +1,5 @@
 #JavaPattern.java
+
 ###Code:
 ~~~~
 public class JavaPattern {
@@ -10,6 +11,7 @@ public class JavaPattern {
     }
 }
 #RectangleArea.java
+
 ###Code:
 class RectangleArea {
     public static void main(String[] args) {
