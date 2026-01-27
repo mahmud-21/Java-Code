@@ -1,10 +1,10 @@
-#RainyDay.java
+# RainyDay.java
 
-###Code :
-~~~~~~~~~~~~~~
+## Code :
+~~~
 class RainyDay {
     public static void main(String[] args) {
         System.out.println("It's a rainy day!");
     }
 }
-~~~~~~~~~~~
+~~~
