@@ -50,9 +50,10 @@ class RhombusArea {
         System.out.println("Area of Rhombus: " + area);
     }
 }
-#TrapeziumArea.java
-###Code :
-
+~~~
+# TrapeziumArea.java
+## Code :
+~~~
 class TrapeziumArea {
     public static void main(String[] args) {
                 if (args.length < 3) {
