@@ -1,4 +1,5 @@
 #SereisSum.java
+
 ###Code :
 ~~~~~~~~
 import java.util.Scanner;
