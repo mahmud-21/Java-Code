@@ -10,9 +10,11 @@ public class JavaPattern {
         System.out.println(" J J   A     A     V     A     A");
     }
 }
-#RectangleArea.java
+~~~
+# RectangleArea.java
 
-###Code:
+## Code:
+~~~
 class RectangleArea {
     public static void main(String[] args) {
                if (args.length < 2) {
@@ -30,9 +32,10 @@ class RectangleArea {
         System.out.println("Area of Rectangle: " + area);
     }
 }
-#RhombusArea.java
-###Code :
-
+~~~
+# RhombusArea.java
+## Code :
+~~~
 class RhombusArea {
     public static void main(String[] args) {
         if (args.length < 2) {
