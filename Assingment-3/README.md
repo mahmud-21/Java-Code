@@ -1,7 +1,7 @@
-#JavaPattern.java
+# JavaPattern.java
 
-###Code:
-~~~~
+## Code:
+~~~
 public class JavaPattern {
     public static void main(String[] args) {
         System.out.println("    J     A     V     V     A");
