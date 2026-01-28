@@ -102,7 +102,10 @@ public class Main {
 ~~~
 ### 🧑‍💻 Sample Output
 Circle Area: 78.5
+
 Rectangle Area: 24.0
+
 Drawing a Circle
+
 Drawing a Rectangle
 
