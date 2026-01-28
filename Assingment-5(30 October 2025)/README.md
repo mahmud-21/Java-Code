@@ -32,6 +32,54 @@ This program is ideal for beginners who are learning:
 ## ▶️ How to Run the Program
 
 ### Step 1: Compile the program
-```bash
+
 javac SeriesSum.java
+
 ---
+
+### Step 2 Run the program
+
+java SeriesSum
+
+### Sample Input
+Enter the value of n: 5
+### Sample Output
+The sum of the series 1 + 2 + ... + 5 is: 15
+
+---
+## Source Code 
+
+import java.util.Scanner;
+
+public class SeriesSum {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n: ");
+        int n = sc.nextInt();
+        int sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            sum += i;
+        }
+
+        System.out.println("The sum of the series 1 + 2 + ... + " + n + " is: " + sum);
+    }
+}
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
