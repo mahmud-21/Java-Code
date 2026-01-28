@@ -84,3 +84,10 @@ public class GeneralKnowledgeQuiz {
     }
 }
 ~~~
+# The Questions
+~~~
+What is the capital of France?|London|Berlin|Paris|Madrid|3
+Which planet is known as the Red Planet?|Mars|Venus|Jupiter|Saturn|1
+What is H2O?|Gold|Water|Silver|Oxygen|2
+Who wrote Romeo and Juliet?|Dickens|Hemingway|Shakespeare|Chaucer|3
+~~~
