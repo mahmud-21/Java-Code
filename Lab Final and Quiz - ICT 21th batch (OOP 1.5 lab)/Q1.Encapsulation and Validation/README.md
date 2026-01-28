@@ -97,3 +97,20 @@ public class Main {
     }
 }
 ~~~
+## Sample Outout
+~~~
+ID: 101
+Name: Azhar
+CGPA: 3.75
+Invalid CGPA! CGPA must be between 0.0 and 4.0
+~~~
+## OOP Concepts Used 
+~~~
+1)Encapsulation
+2)Data validation using setter methods
+3)Class and object creation
+~~~
+
+
+
+
