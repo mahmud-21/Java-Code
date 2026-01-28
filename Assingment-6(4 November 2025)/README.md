@@ -1,13 +1,53 @@
-#MathPractice.java
+# MathPractice
 
-###Code:
-~~~
+**MathPractice** is a Java-based command-line utility designed to perform a series of common mathematical and financial calculations. It demonstrates the use of the `java.lang.Math` library and user input handling via `Scanner`.
+
+## 📋 Overview
+
+The program executes five specific mathematical equations in sequence:
+
+1.  **Right Triangle Height:** Calculates height using trigonometry.
+2.  **Compound Interest:** Calculates final amount over time.
+3.  **Coordinate Conversion:** Converts Cartesian $(x, y)$ to Polar $(r, \theta)$ coordinates.
+4.  **Euclidean Distance:** Calculates the distance between two points on a 2D plane.
+5.  **Quadratic Solver:** Solves $ax^2 + bx + c = 0$ and identifies real positive roots.
+
+## 🚀 Features & Equations
+
+### 1. Triangle Height
+Calculates the height of a right triangle given the base ($b$) and angle ($\theta$).
+* **Formula:** $height = b \times \tan(\theta)$
+* *Note: Input angle is in degrees; the program converts it to radians.*
+
+### 2. Compound Interest
+Determines the total accumulated value ($A$) of an investment.
+* **Formula:** $A = P(1 + \frac{r}{n})^{nt}$
+* **Inputs:** Principal ($P$), Annual Rate ($r$), Compounds per year ($n$), Years ($t$).
+
+### 3. Cartesian to Polar
+Converts rectangular coordinates to polar form.
+* **Radius:** $r = \sqrt{x^2 + y^2}$
+* **Angle:** $\theta = \arctan(\frac{y}{x})$
+
+### 4. Distance Formula
+Finds the distance between point 1 $(x_1, y_1)$ and point 2 $(x_2, y_2)$.
+* **Formula:** $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
+
+### 5. Quadratic Equation
+Solves for roots using the quadratic formula.
+* **Formula:** $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+* **Logic:** The program checks the discriminant ($b^2 - 4ac$) to ensure roots are real and identifies the smallest positive root.
+
+---
+
+## 📂 Source Code
+
+```java
 import java.util.Scanner;
 
 public class MathPractice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
 
         System.out.println("Equation 1: Calculate the height of a right triangle.");
         System.out.print("Enter base (b): ");
@@ -17,7 +57,7 @@ public class MathPractice {
         double height = b * Math.tan(Math.toRadians(theta));
         System.out.println("Height: " + height);
 
-       
+        
         System.out.println("\nEquation 2: Compound Interest Calculation.");
         System.out.print("Enter Principal (P): ");
         double P = sc.nextDouble();
@@ -30,7 +70,7 @@ public class MathPractice {
         double A = P * Math.pow(1 + r / n, n * t);
         System.out.println("Total Amount: " + A);
 
-       
+        
         System.out.println("\nEquation 3: Convert Cartesian to Polar Coordinates.");
         System.out.print("Enter x: ");
         double x = sc.nextDouble();
@@ -41,7 +81,6 @@ public class MathPractice {
         System.out.println("Radius: " + rPolar + ", Angle: " + thetaPolar + "°");
 
         
-
         System.out.println("\nEquation 4: Calculate Distance Between Two Points.");
         System.out.print("Enter x1: ");
         double x1 = sc.nextDouble();
@@ -63,6 +102,7 @@ public class MathPractice {
         System.out.print("Enter coefficient c: ");
         double c = sc.nextDouble();
         double discriminant = Math.pow(bQuad, 2) - 4 * a * c;
+        
         if (discriminant >= 0) {
             double root1 = (-bQuad + Math.sqrt(discriminant)) / (2 * a);
             double root2 = (-bQuad - Math.sqrt(discriminant)) / (2 * a);
@@ -83,4 +123,3 @@ public class MathPractice {
         sc.close();
     }
 }
-~~~
