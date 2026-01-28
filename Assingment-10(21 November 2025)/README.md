@@ -12,7 +12,6 @@ A simple, interactive Java console application that allows users to take a gener
 
 ## 📂 Project Structure
 
-.
 ├── GeneralKnowledgeQuiz.java  # Main source code
 ├── questions.txt              # Data file containing quiz questions (You must create this)
 ├── scores.txt                 # Auto-generated file storing player results
