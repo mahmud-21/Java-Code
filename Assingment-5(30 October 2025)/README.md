@@ -65,6 +65,7 @@ public class SeriesSum {
         System.out.println("The sum of the series 1 + 2 + ... + " + n + " is: " + sum);
     }
 }
+
 ---
 
 
