@@ -1,4 +1,4 @@
-class Car {
+class car {
     String color;
     int speed;
 
@@ -7,9 +7,9 @@ class Car {
     }
 }
 
-public class Main {
+public class Car {
     public static void main(String[] args) {
-        Car myCar = new Car(); // object creation
+        car myCar = new car(); 
         myCar.color = "Red";
         myCar.speed = 100;
         myCar.drive();
