@@ -21,7 +21,6 @@ public class GeneralKnowledgeQuiz {
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split("\\|");
                 
-                // Display question and options
                 totalQuestions++;
                 System.out.println("Q" + totalQuestions + ": " + parts[0]);
                 System.out.println("1. " + parts[1]);
@@ -29,12 +28,12 @@ public class GeneralKnowledgeQuiz {
                 System.out.println("3. " + parts[3]);
                 System.out.println("4. " + parts[4]);
                 
-                // Get answer
+                
                 System.out.print("Your answer (1-4): ");
                 int answer = scanner.nextInt();
                 int correct = Integer.parseInt(parts[5]);
                 
-                // Check answer
+              
                 if (answer == correct) {
                     System.out.println("Correct!\n");
                     score++;
