@@ -48,9 +48,8 @@ The sum of the series 1 + 2 + ... + 5 is: 15
 
 ---
 ## Source Code 
-
+---
 import java.util.Scanner;
-
 public class SeriesSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
