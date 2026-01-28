@@ -1,21 +1,24 @@
 public class Circle {
     private double radius;
-    
-    public Circle() {}
-    
+
     public Circle(double radius) {
-        this.radius = radius;
+        setRadius(radius);
     }
-    
-    public void setRadius(double rad) {
-        this.radius = rad;
+
+    public void setRadius(double radius) {
+        if (radius < 0) {
+            System.out.println("Error: Radius cannot be negative. Setting to 0.");
+            this.radius = 0;
+        } else {
+            this.radius = radius;
+        }
     }
-    
     public double getRadius() {
-        return this.radius;
+        return radius;
     }
-    
-    public double computeArea() {
-        return (radius * radius * Math.PI);
+
+    public double calculateArea() {
+        return Math.PI * radius * radius;
     }
 }
+
