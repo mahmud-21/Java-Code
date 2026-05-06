@@ -46,6 +46,42 @@ public class Main {
 ~~~
 https://leetcode.com/problems/harshad-number/
 ~~~
+# The code of Task 02
+~~~
+import java.util.Scanner;
+
+public class Main {
+
+    // Method to check Harshad number
+    public static int sumOfTheDigitsOfHarshadNumber(int x) {
+        int sum = 0;
+        int y = x;
+
+        while (y > 0) {
+            int r = y % 10;
+            sum += r;
+            y = y / 10;
+        }
+
+        if (x % sum == 0)
+            return sum;
+        else
+            return -1;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();  // take input
+
+        int result = sumOfTheDigitsOfHarshadNumber(x);
+
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+~~~
 # The link of Task 03
 ~~~
 https://www.spoj.com/problems/HARSHAD/
