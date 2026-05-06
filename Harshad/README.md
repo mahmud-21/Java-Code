@@ -42,3 +42,11 @@ public class Main {
     }
 }
 ~~~
+# The link of Task o2
+~~~
+https://leetcode.com/problems/harshad-number/
+~~~
+# The link of Task 03
+~~~
+https://www.spoj.com/problems/HARSHAD/
+~~~
