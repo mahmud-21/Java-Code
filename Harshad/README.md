@@ -1,12 +1,4 @@
-# 🔢 Harshad Number Project
-
-<div align="center">
-
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-[![Math](https://img.shields.io/badge/Math-0EA5E9?style=for-the-badge&logo=calculator&logoColor=white)](https://mathworld.wolfram.com/HarshadNumber.html)
-[![Problems](https://img.shields.io/badge/Problems-16%20Solved-22C55E?style=for-the-badge&logo=codeforces&logoColor=white)](https://leetcode.com/problems/harshad-number/)
-
-</div>
+# 🔢 Harshad Number 
 
 ## 📚 What is a Harshad Number?
 
