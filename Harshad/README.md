@@ -1,3 +1,13 @@
+# Harshad Number
+## The Question for Harshad Problem
+~~
+A positive integerLinks to an external site. which is divisibleLinks to an external site. by the sum of its digitsLinks to an external site., also called a Niven number (Kennedy et al. 1980) or a multidigital number (Kaprekar 1955). The first few are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 18, 20, 21, 24, ... (OEIS A005349Links to an external site.). Grundman (1994) proved that there is no sequence of more than 20 consecutive Harshad numbers, and found the smallest sequence of 20 consecutive Harshad numbers, each member of which has 44363342786 digits.
+
+Grundman (1994) defined an n-Harshad (or n-Niven) number to be a positive integerLinks to an external site. which is divisibleLinks to an external site. by the sum of its digits in base n>=2. Cai (1996) showed that for n=2 or 3, there exists an infinite family of sequences of consecutive n-Harshad numbers of length 2n.
+
+Define an all-Harshad (or all-Niven) number as a positive integer which is divisible by the sum of its digits in all bases n>=2. Then only 1, 2, 4, and 6 are all-Harshad numbers.
+~~
+
 # The Code for Task 01 
 ~~~
 class Harshad {
